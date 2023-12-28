@@ -6,4 +6,5 @@
 2.在fastapi上用jinja2渲染html页面
 12.28
 1.引入crud
-2.文件结构调整
+2.引入APIRouter
+3.文件结构调整
