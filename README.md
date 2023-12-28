@@ -1,13 +1,9 @@
 12.19
-今天菜鸟复现了一下brython的这个用例
-1.首先阅读代码
-2.懵逼一圈后借助某心某言能看懂代码
-3.copy
-遇到的问题
-1.开始没有借助开发者工具，乃至出现问题都不知道
-2.引入的scripts没有执行，开始以为brython版本问题就去下载了作者的版本,后来还是不行，看了原作者的项目案例发现body缺少onload='brython(1)'属性，然后就解决了。
-3.引入brython脚本路径正确，一开始浏览器直接访问绝对路径不可实现，这里用相对路径。
+1.复现brython用例
 源：https://www.brython.info/gallery/turtle.html
 12.27
 1.引入bootstrap5样式
 2.在fastapi上用jinja2渲染html页面
+12.28
+1.引入crud
+2.文件结构调整
